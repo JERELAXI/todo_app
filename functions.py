@@ -10,6 +10,3 @@ def getTodos(filePath=FILEPATH):
 def writeTodos(listName, filePath=FILEPATH):
     with open(filePath, 'w') as file:
         file.writelines(listName)
-
-
-print('Hello from functions.')
